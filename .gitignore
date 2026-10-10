@@ -1,0 +1,33 @@
+# Packer output and VMware VM images
+output-*/
+*.vmx
+*.vmdk
+*.nvram
+*.vmsd
+*.vmsn
+*.vmem
+*.vmss
+*.vmsw
+*.vmxf
+*.lck/
+*.log
+packer_cache/
+
+# Licensed installers and local runtime artifacts
+*.iso
+*.wim
+*.esd
+
+# Plaintext local Administrator credentials (NEVER commit)
+Autounattend.xml
+*.pkrvars.hcl
+*.auto.pkrvars.hcl
+*.pkrvars.json
+*.auto.pkrvars.json
+.env
+.env.*
+!.env.example
+
+# Local caches
+__pycache__/
+.DS_Store
