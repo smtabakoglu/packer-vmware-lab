@@ -1,0 +1,26 @@
+# Contains salted password hash used for installation
+http/user-data
+# Local credentials, HCL variables, installer/VM files
+*.pkrvars.hcl
+*.auto.pkrvars.hcl
+*.pkrvars.json
+*.auto.pkrvars.json
+.env
+.env.*
+!.env.example
+output/
+output-*/
+packer_cache/
+*.vmdk
+*.vmx
+*.nvram
+*.vmem
+*.vmxf
+*.vmsd
+*.vmsn
+*.vmss
+*.lck/
+*.log
+*.iso
+*.wim
+__pycache__/

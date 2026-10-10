@@ -1,0 +1,19 @@
+#cloud-config
+autoinstall:
+  version: 1
+  refresh-installer:
+    update: false
+  identity:
+    hostname: ubuntu-packer
+    username: packer
+    password: "__SHA512_PASSWORD_HASH__"
+  ssh:
+    install-server: true
+    allow-pw: true
+  storage:
+    layout:
+      name: direct
+  # Ubuntu 22.04 supports only `security` and `all` for `updates`.
+  # Omit this to retain the supported default. This does NOT skip
+  # end-of-install security upgrades; see docs/TROUBLESHOOTING.md.
+  shutdown: reboot

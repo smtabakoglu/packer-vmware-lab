@@ -1,0 +1,19 @@
+# Extra safety for Linux lab runtime/output
+**/http/user-data
+**/output/
+**/output-*/
+**/packer_cache/
+**/*.vmdk
+**/*.vmx
+**/*.iso
+**/*.pkrvars.hcl
+**/*.auto.pkrvars.hcl
+**/.env
+**/.env.*
+!**/.env.example
+**/inventory.ini
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/.terraform/
+**/.terraform.lock.hcl
+**/.vault_pass*
