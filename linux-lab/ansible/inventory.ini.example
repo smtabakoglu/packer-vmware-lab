@@ -1,3 +1,0 @@
-# Copy to inventory.ini and replace the TEST-NET address with your actual VM IP.
-[packer_ubuntu]
-ubuntu-2204 ansible_host=192.0.2.10 ansible_user=packer ansible_python_interpreter=/usr/bin/python3

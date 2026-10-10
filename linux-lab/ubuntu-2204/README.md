@@ -70,5 +70,5 @@ The generated `http/user-data` contains a reusable salted **password hash**. It 
 
 ## Follow-on work
 
-- [Ansible](../ansible/) includes an **unexecuted, read-only starter playbook** for this Ubuntu VM.
+- Ansible provisioning is a **planned future step**. No Ansible playbooks were executed during the original lab and no Ansible files are published.
 - [Terraform integration status](../terraform/README.md) records the VMware REST API and provider findings, including the still-unresolved Terraform data-source 404. **No Terraform apply is claimed.**
